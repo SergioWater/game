@@ -1,0 +1,77 @@
+<!-- 
+Sergio Aguilar 
+921140724
+SergioWater
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+ 
+     <div id="game-container">
+         <!-- Scoreboard -->
+        
+        <div id="score">Score: 0</div>
+
+        <!-- Start -->
+        <button id="start-game-button">Start Game!</button>
+
+
+        <div class="mole-grid">
+            <!-- Mole Hole -->
+            <div class="hole">
+                <div class="mole"></div>
+            </div>
+            <div class="hole">
+                <div class="mole"></div>
+            </div>
+            <div class="hole">
+                <div class="mole"></div>
+            </div>
+            <div class="hole">
+                <div class="mole"></div>
+            </div>
+            <div class="hole">
+                <div class="mole"></div>
+            </div>
+            <div class="hole">
+                <div class="mole"></div>
+            </div>
+            <div class="hole">
+                <div class="mole"></div>
+            </div>
+            <div class="hole">
+                <div class="mole"></div>
+            </div>
+            <div class="hole">
+                <div class="mole"></div>
+            </div>
+
+
+        </div>
+ 
+ 
+ 
+ 
+         <!-- timer -->
+         <div id="timer">Time: 0</div>
+ 
+ 
+         <!-- End screen -->
+         <div id="game-over" style="display: none;">
+             Game Over! Your score: <span id="final-score"></span>
+             <button id="restart-game-button">Restart</button>
+         </div>
+ 
+ 
+     </div>
+ 
+ <script src="game.js"></script>
+ </body>
+ </html>
